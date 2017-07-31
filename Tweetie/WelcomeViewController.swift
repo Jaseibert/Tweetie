@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Firebase
+import FirebaseAuth
 
 class WelcomeViewController: UIViewController
 {
@@ -26,7 +26,7 @@ class WelcomeViewController: UIViewController
         (sender as! UIButton).alpha = 1.0
         
         // TODO: Login Anonymously here
-        FIRAuth.auth()!.signInAnonymously { (firUser, error) in
+        Auth.auth().signInAnonymously { (firUser, error) in
             if error == nil {
                 self.performSegue(withIdentifier: "Show Stories", sender: nil)
             } else {
