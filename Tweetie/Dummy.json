@@ -1,0 +1,32 @@
+{   // ~/
+"Location" : {  // ~/Location
+    "LocationKey1" : { // ~/Location/LocationKey1
+            "stories" : {   // ~/Location/LocationKey1/stories
+                "storyKey1" : { // ~/Location/LocationKey1/stories/storyKey1
+                    "text" : "This is a sample story",
+                    "numberOfLikes" : 0,
+                    "numberOfAngry" : 1,
+                    "imageURL" : "This is an Image URL"
+                },
+                "storyKey2" : { // ~/stories/storyKey2
+                    "text" : "This is another sample story",
+                    "numberOfLikes" : 5,  // ~/stories/storyKey2/numberOfLikes
+                    "numberOfAngry" : 0,
+                    "imageURL" : "This is an Image URL"
+            }
+        }
+    },
+    "LocationKey2" : {// ~/Location/LocationKey2
+        "stories" : {   // ~Location/LoactionKey2/stories
+            "storyKey1" : {
+                "text" : "This is a sample story",
+                "numberOfLikes" : 0,
+                "numberOfAngry" : 1,
+                "imageURL" : "This is an Image URL"
+            },
+            "storyKey2" : { // ~/stories/storyKey2
+                "text" : "This is another sample story",
+                "numberOfLikes" : 5,  // ~/stories/storyKey2/numberOfLikes
+                "numberOfAngry" : 0,
+                "imageURL" : "This is an Image URL"
+}
